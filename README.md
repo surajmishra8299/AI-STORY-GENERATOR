@@ -30,7 +30,6 @@ Clone the repository:
 
 - bash
 Copy code
-git clone https://github.com/yourusername/ai-story-generator.git
 Navigate to the project directory:
 
 - bash
@@ -125,12 +124,12 @@ Image Editing: Provide tools for users to edit or select preferred images.
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 # Credits
-Suraj Mishra - Project Developer
-Materialize CSS - For the responsive front-end framework
-Google Generative AI - For the AI-powered story generation
-Unsplash API - For providing stunning images
+- Suraj Mishra - Project Developer
+- Materialize CSS - For the responsive front-end framework
+- Google Generative AI - For the AI-powered story generation
+- Unsplash API - For providing stunning images
 
 # Contact
-GitHub: [GitHub/surajmishra8299](https://github.com/surajmishra8299)
-LinkedIn: [Linkedin/surajmishra8299](https://www.linkedin.com/in/surajmishra8299/)
-Feel free to contribute to this project by creating a pull request or reporting issues!
+- GitHub: [GitHub/surajmishra8299](https://github.com/surajmishra8299)
+- LinkedIn: [Linkedin/surajmishra8299](https://www.linkedin.com/in/surajmishra8299/)
+- Feel free to contribute to this project by creating a pull request or reporting issues!
