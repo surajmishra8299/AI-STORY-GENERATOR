@@ -53,8 +53,8 @@ Optional: If you are deploying to a server, make sure the API keys are stored se
 # Project Structure
 bash
 Copy code
-- ai-story-generator/
-│
+- ai-story-generator
+
 ├── index.html          # Main HTML structure
 ├── style.css           # Custom styling for the app
 ├── script.js           # Main JavaScript file for handling interactions
