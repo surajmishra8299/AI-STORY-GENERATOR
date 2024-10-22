@@ -53,7 +53,7 @@ Optional: If you are deploying to a server, make sure the API keys are stored se
 # Project Structure
 bash
 Copy code
-ai-story-generator/
+- ai-story-generator/
 │
 ├── index.html          # Main HTML structure
 ├── style.css           # Custom styling for the app
@@ -71,11 +71,11 @@ Code Example:
 
 javascript
 Copy code
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+- const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+- const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-const result = await model.generateContent(storyInput);
-const story = await result.response.text();
+- const result = await model.generateContent(storyInput);
+- const story = await result.response.text();
 2. Unsplash API:
 To fetch random images related to the story prompt, the Unsplash API is used.
 
@@ -83,9 +83,9 @@ Code Example:
 
 javascript
 Copy code
-const apiURL = `https://api.unsplash.com/photos/random?query=${query}&count=3&client_id=${UNSPLASH_ACCESS_KEY}`;
-const response = await fetch(apiURL);
-const data = await response.json();
+- const apiURL = `https://api.unsplash.com/photos/random?query=${query}&count=3&client_id=${UNSPLASH_ACCESS_KEY}`;
+- const response = await fetch(apiURL);
+- const data = await response.json();
 
 # UI/UX Design
 Story Input: Users enter their story prompts in a text area.
